@@ -1,0 +1,122 @@
+* {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+color: var(--text);
+background-color: #0f4c5c;}
+
+:root {
+  --button: #0f4c5c;
+  --red: #9a031e;
+  --back: #34495E;
+  --text: #fefae0;
+}
+
+
+h1 {font-size: 40px;
+align-content: ce ;}
+
+nav {display: flex;
+    justify-content:space-evenly  ;
+  background-color: var(--button);}
+
+button {color: var(--text);
+  border-radius: 8px;
+  padding: 30px 19px;
+  font-size: large;
+  background-color: var(--back);
+}
+
+textarea {
+  width: 90%;
+  margin: 20px;
+}
+
+input {
+  margin-bottom: 20px;
+  width: 50%;
+  border: 1px solid lightgray;
+}
+
+ul {padding-left: 0;}
+
+li {
+  background-color: var(--back);
+  margin-top: 20px;
+  padding: 10px 15px;
+  border: var(--text) 1px solid;
+  border-radius: 20px;
+  font-size: large;
+  color: var(--text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+#wrapper {display: flex;
+  justify-content: center;
+  width: 430px;
+  min-height: 430px;
+  margin: auto;
+  height: 100%;
+  padding-top: 0px;
+  margin-top: 60px;
+}
+
+#startQuiz {color: var(--text);
+  border-radius: 8px;
+  padding: 30px 19px;
+  font-size: large;
+  background-color: var(--back);
+}
+
+#checker {
+  margin-top: 30px;
+  font-size: 50px;
+}
+
+#countdown {
+  border-radius: 8px;
+  padding: 30px 19px;
+  font-size: large;
+  background-color: var(--back);
+  border: 1px solid;
+  box-shadow: 1px 1px #888888;
+  width: 90px;
+}
+
+#return {
+  color: var(--text);
+  background-color: var(--back);
+  padding: 10px;
+  font-size: 20px;
+  top: 30%;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px;
+}
+
+#delete {
+  color: var(--text);
+  background-color: var(--back);
+  padding: 10px;
+  font-size: 20px;
+  top: 30%;
+  right: 5%;
+  text-align: center;
+}
+
+#record {
+  color: var(--text);
+  border-radius: 8px;
+  padding: 30px 19px;
+  font-size: large;
+  background-color: var(--back);
+  margin-left: 15px;
+}
+
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+}
