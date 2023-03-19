@@ -2,6 +2,8 @@ This is without a doubt one of the most frustrating challenges so far, i still c
 
 https://jakerobinson12.github.io/Quiz/
 
+/.assets/screenshot.jpg
+
 # 04 Web APIs: Code Quiz
 
 ## Your Task
